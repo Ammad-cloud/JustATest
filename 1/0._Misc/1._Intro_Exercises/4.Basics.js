@@ -14,7 +14,7 @@ const friends = [];
 
 // What a lonely array. Add at least 3 friend objects to it.  
 friends[0] = 'Michael Berko';
-friends[1] = 'Rasmus Falk'
+friends[1] = 'Rasmus Jensen'
 friends[2] = 'Julius Christoffersen'
 
 console.log(friends);

@@ -25,12 +25,12 @@ directorAndAlsoEmployeeList = membersInBothSet(boardOfDirectors, employees)
 print('Director and also employee: ', directorAndAlsoEmployeeList)
 
 managmentAndAlsoDirectorList = membersInBothSet(management, boardOfDirectors)
-print('Manament and also director: ', len(managmentAndAlsoDirectorList))
+print('Management and also director: ', len(managmentAndAlsoDirectorList))
 
 managmentAndAlsoEmployeeList = membersInBothSet(management, employees)
 print('Management and also employee: ', managmentAndAlsoEmployeeList)
 
-print('Mnagement and board: ', managmentAndAlsoDirectorList)
+print('Management and board: ', managmentAndAlsoDirectorList)
 
 print('Management, board and employee: ', membersInBothSet(membersInBothSet(boardOfDirectors, management), employees))
 
